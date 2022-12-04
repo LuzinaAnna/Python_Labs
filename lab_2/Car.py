@@ -11,3 +11,9 @@ class Car:
         return self.__color
     def color(self, c):
         self.__color = c
+    def max_speed(self):
+        return self.__max_speed
+
+    def max_speed(self, s):
+        self.__max_speed = s
+
