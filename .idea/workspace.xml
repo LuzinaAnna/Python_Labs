@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb44daa-7297-44bd-91bb-b2063e053685" name="Changes" comment="creating file structure" />
+    <list default="true" id="7cb44daa-7297-44bd-91bb-b2063e053685" name="Changes" comment="change file structure">
+      <change beforePath="$PROJECT_DIR$/lab_2/Car.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/Car.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670161350783</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change file structure">
+      <created>1670161550357</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670161550357</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +179,7 @@
     <MESSAGE value="constuctor" />
     <MESSAGE value="deleting files" />
     <MESSAGE value="creating file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating file structure" />
+    <MESSAGE value="change file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="change file structure" />
   </component>
 </project>
