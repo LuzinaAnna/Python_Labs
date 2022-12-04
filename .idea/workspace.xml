@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb44daa-7297-44bd-91bb-b2063e053685" name="Changes" comment="constuctor">
-      <change afterPath="$PROJECT_DIR$/lab_2/Audi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_2/Car.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/Car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="7cb44daa-7297-44bd-91bb-b2063e053685" name="Changes" comment="creating file structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670160439250</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="deleting files">
+      <created>1670161111992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670161111992</updated>
+    </task>
+    <task id="LOCAL-00010" summary="creating file structure">
+      <created>1670161350783</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670161350783</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +168,8 @@
     <MESSAGE value="property max speed" />
     <MESSAGE value="get info" />
     <MESSAGE value="constuctor" />
-    <option name="LAST_COMMIT_MESSAGE" value="constuctor" />
+    <MESSAGE value="deleting files" />
+    <MESSAGE value="creating file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating file structure" />
   </component>
 </project>
