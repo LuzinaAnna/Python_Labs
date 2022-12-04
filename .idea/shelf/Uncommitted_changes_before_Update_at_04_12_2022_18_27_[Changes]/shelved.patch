@@ -1,0 +1,29 @@
+Index: lab_2/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"Hello world\")\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lab_2/main.py b/lab_2/main.py
+--- a/lab_2/main.py	(revision 2ebfe4a92747538cc9d739a49edf39d0b971670a)
++++ b/lab_2/main.py	(date 1670159189918)
+@@ -1,1 +1,3 @@
+-print("Hello world")
++from Car import Car
++c=Car(120,"green",250)
++c.info()
+\ No newline at end of file
+Index: lab_2/Audi.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lab_2/Audi.py b/lab_2/Audi.py
+new file mode 100644
+--- /dev/null	(date 1670160073636)
++++ b/lab_2/Audi.py	(date 1670160073636)
+@@ -0,0 +1,3 @@
++from Car import Car
++class Audi(Car):
++def __init__(self,model,wheel_radius)
