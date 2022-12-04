@@ -5,5 +5,6 @@ class Car:
         self.__max_speed = max_speed
         def hp(self):
             return self.__hp
-
+        def hp(self,h):
+            self.__hp=h
     pass
