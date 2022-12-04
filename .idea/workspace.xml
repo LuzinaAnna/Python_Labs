@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb44daa-7297-44bd-91bb-b2063e053685" name="Changes" comment="change structure class Mersedes">
-      <change beforePath="$PROJECT_DIR$/lab_2/VAZ.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/VAZ.py" afterDir="false" />
+    <list default="true" id="7cb44daa-7297-44bd-91bb-b2063e053685" name="Changes" comment="change structure class Vaz">
       <change beforePath="$PROJECT_DIR$/lab_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_2/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670167417649</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="change structure class Vaz">
+      <created>1670167982505</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670167982505</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +235,7 @@
     <MESSAGE value="change structure class Audi" />
     <MESSAGE value="change structure class BMW" />
     <MESSAGE value="change structure class Mersedes" />
-    <option name="LAST_COMMIT_MESSAGE" value="change structure class Mersedes" />
+    <MESSAGE value="change structure class Vaz" />
+    <option name="LAST_COMMIT_MESSAGE" value="change structure class Vaz" />
   </component>
 </project>
