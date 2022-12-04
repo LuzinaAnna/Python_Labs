@@ -6,23 +6,21 @@ class Car:
     def hp(self):
         return self.__hp
     def hp (self, h):
-        self.__hp = h
+        if h>0:
+          self.__hp = h
+        else:
+          raise ValueError
     def color(self):
         return self.__color
     def color(self, c):
         self.__color = c
     def max_speed(self):
         return self.__max_speed
-
     def max_speed(self, s):
-        self.__max_speed = s
-
-    def max_speed(self):
-        return self.__max_speed
-
-    def max_speed(self, s):
-        self.__max_speed = s
-
+        if s>0:
+          self.__max_speed = s
+        else:
+          raise ValueError
     def info(self):
         print("Car")
         print(f"Hp: {self.__hp}")
