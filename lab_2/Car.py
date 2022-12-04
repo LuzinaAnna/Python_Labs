@@ -17,3 +17,14 @@ class Car:
     def max_speed(self, s):
         self.__max_speed = s
 
+    def max_speed(self):
+        return self.__max_speed
+
+    def max_speed(self, s):
+        self.__max_speed = s
+
+    def info(self):
+        print("Car")
+        print(f"Hp: {self.__hp}")
+        print("Color:" + self.__color)
+        print(f"Max speed: {self.__max_speed}")
