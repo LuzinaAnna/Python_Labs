@@ -1,0 +1,43 @@
+{
+    "amount": 5,
+    "obj": [
+        {
+            "name": "Car",
+            "_Car__hp": 120,
+            "_Car__color": "green",
+            "_Car__max_speed": 250
+        },
+        {
+            "name": "Audi",
+            "_Car__hp": 140,
+            "_Car__color": "red",
+            "_Car__max_speed": 270,
+            "_Audi__model": "Q7",
+            "_Audi__wheel_radius": 14
+        },
+        {
+            "name": "BMW",
+            "_Car__hp": 100,
+            "_Car__color": "black",
+            "_Car__max_speed": 230,
+            "_BMW__model": "M3",
+            "_BMW__year_realise": 1998
+        },
+        {
+            "name": "Mersedes",
+            "_Car__hp": 150,
+            "_Car__color": "white",
+            "_Car__max_speed": 290,
+            "_Mersedes__model": "GLE Coupe I",
+            "_Mersedes__clas": "S"
+        },
+        {
+            "name": "VAZ",
+            "_Car__hp": 70,
+            "_Car__color": "cherry",
+            "_Car__max_speed": 130,
+            "_VAZ__model": "\u043f\u044f\u0442\u0435\u0440\u043a\u0430",
+            "_VAZ__condition": "good"
+        }
+    ]
+}

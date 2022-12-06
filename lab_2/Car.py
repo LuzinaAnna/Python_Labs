@@ -1,5 +1,6 @@
 class Car:
     def __init__(self, hp, color, max_speed):
+        self.name = "Car"
         self.__hp = hp
         self.__color = color
         self.__max_speed = max_speed
@@ -28,7 +29,7 @@ class Car:
         else:
           raise ValueError
     def info(self):
-        print("Car")
+        print(self.name)
         print(f"Hp: {self.__hp}")
         print("Color:" + self.__color)
         print(f"Max speed: {self.__max_speed}")
