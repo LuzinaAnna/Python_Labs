@@ -36,7 +36,7 @@
             "_Car__hp": 70,
             "_Car__color": "cherry",
             "_Car__max_speed": 130,
-            "_VAZ__model": "\u043f\u044f\u0442\u0435\u0440\u043a\u0430",
+            "_VAZ__model": "five",
             "_VAZ__condition": "good"
         }
     ]
