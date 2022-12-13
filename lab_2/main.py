@@ -31,15 +31,15 @@ l.clear()
 data = read_from_json()
 for elem in data['obj']:
     if elem['name'] == "Car":
-        obj = Car(elem['_Car__hp'], elem['_Car__color'], elem['_Car__max_speed'])
+        obj = Car(elem['_hp'], elem['_color'], elem['_max_speed'])
     elif elem['name'] == "Audi":
-        obj = Audi(elem['_Car__hp'], elem['_Car__color'], elem['_Car__max_speed'], elem['_Audi__model'], elem['_Audi__wheel_radius'])
+        obj = Audi(elem['_hp'], elem['_color'], elem['_max_speed'], elem['_model'], elem['_wheel_radius'])
     elif elem['name'] == "BMW":
-        obj = BMW(elem['_Car__hp'], elem['_Car__color'], elem['_Car__max_speed'], elem['_BMW__model'], elem['_BMW__year_realise'])
+        obj = BMW(elem['_hp'], elem['_color'], elem['_max_speed'], elem['_model'], elem['_year_realise'])
     elif elem['name'] == "Mersedes":
-        obj = Mersedes(elem['_Car__hp'], elem['_Car__color'], elem['_Car__max_speed'], elem['_Mersedes__model'], elem['_Mersedes__clas'])
+        obj = Mersedes(elem['_hp'], elem['_color'], elem['_max_speed'], elem['_model'], elem['_clas'])
     elif elem['name'] == "VAZ":
-        obj = VAZ(elem['_Car__hp'], elem['_Car__color'], elem['_Car__max_speed'], elem['_VAZ__model'], elem['_VAZ__condition'])
+        obj = VAZ(elem['_hp'], elem['_color'], elem['_max_speed'], elem['_model'], elem['_condition'])
     l.append(obj)
 for elem in l:
-    elem.info()
+    elem.__repr__()

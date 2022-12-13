@@ -3,24 +3,8 @@ class Mersedes(Car):
     def __init__(self, hp, color, max_speed, model, clas):
         super().__init__(hp, color, max_speed)
         self.name = "Mersedes"
-        self.__model = model
-        self.__clas = clas
-    @property
-    def model(self):
-        return self.__model
-    @model.setter
-    def model(self, m):
-        self.__model = m
-    @property
-    def clas(self):
-        return self.__clas
-    @clas.setter
-    def clas(self, c):
-        self.__clas = c
-    def info(self):
-        print(self.name)
-        print(f"Hp: {self.hp}")
-        print("Color:" + self.color)
-        print(f"Max speed: {self.max_speed}")
-        print("Model:" + self.__model)
-        print("Class: " + self.__clas)
+        self._model = model
+        self._clas = clas
+    def __repr__(self):
+        return f'Car (name = {self.name}, hp = {self._hp}, color = {self._color},' \
+               f' max_speed = {self._max_speed}, model = {self._model}, condition = {self._clas})'

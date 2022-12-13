@@ -3,41 +3,41 @@
     "obj": [
         {
             "name": "Car",
-            "_Car__hp": 120,
-            "_Car__color": "green",
-            "_Car__max_speed": 250
+            "_hp": 120,
+            "_color": "green",
+            "_max_speed": 250
         },
         {
             "name": "Audi",
-            "_Car__hp": 140,
-            "_Car__color": "red",
-            "_Car__max_speed": 270,
-            "_Audi__model": "Q7",
-            "_Audi__wheel_radius": 14
+            "_hp": 140,
+            "_color": "red",
+            "_max_speed": 270,
+            "_model": "Q7",
+            "_wheel_radius": 14
         },
         {
             "name": "BMW",
-            "_Car__hp": 100,
-            "_Car__color": "black",
-            "_Car__max_speed": 230,
-            "_BMW__model": "M3",
-            "_BMW__year_realise": 1998
+            "_hp": 100,
+            "_color": "black",
+            "_max_speed": 230,
+            "_model": "M3",
+            "_year_realise": 1998
         },
         {
             "name": "Mersedes",
-            "_Car__hp": 150,
-            "_Car__color": "white",
-            "_Car__max_speed": 290,
-            "_Mersedes__model": "GLE Coupe I",
-            "_Mersedes__clas": "S"
+            "_hp": 150,
+            "_color": "white",
+            "_max_speed": 290,
+            "_model": "GLE Coupe I",
+            "_clas": "S"
         },
         {
             "name": "VAZ",
-            "_Car__hp": 70,
-            "_Car__color": "cherry",
-            "_Car__max_speed": 130,
-            "_VAZ__model": "five",
-            "_VAZ__condition": "good"
+            "_hp": 70,
+            "_color": "cherry",
+            "_max_speed": 130,
+            "_model": "five",
+            "_condition": "good"
         }
     ]
 }
