@@ -27,3 +27,4 @@ with open("phe_healthcare.csv",mode='r',encoding='UTF-8') as file:
 
 with open("resultaet.txt",'w') as file:
     file.write(str(result))
+    #сдано

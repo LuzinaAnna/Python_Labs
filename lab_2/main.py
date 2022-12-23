@@ -43,3 +43,4 @@ for elem in data['obj']:
     l.append(obj)
 for elem in l:
     elem.__repr__()
+    #сдано

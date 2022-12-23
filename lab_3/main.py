@@ -14,3 +14,4 @@ random_numbers.sort()
 (result["SumRnd"] == sum_(Z, for_each=Z)) <= (Z.in_(random_numbers))
 print(result["SumRnd"] == SumRnd)
 print("Mediana:", (random_numbers[49]+random_numbers[50])/2)
+#сдано
